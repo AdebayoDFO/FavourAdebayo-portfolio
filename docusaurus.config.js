@@ -103,12 +103,6 @@ const config = {
             label: 'Blog',
             position: 'left'},
 
-            {
-              href: '/files/resume.pdf',
-              label: 'Resume',
-              position: 'left',
-            },
-
           {
            label: 'Contact',
            position: 'right',

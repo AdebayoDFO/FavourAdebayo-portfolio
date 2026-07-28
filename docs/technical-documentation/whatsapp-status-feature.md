@@ -106,9 +106,9 @@ WhatsApp Status gives users a simple, private, and temporary way to share update
 <details>
 <summary>References</summary>
 
-- WhatsApp Help Center. *How to manage status privacy.* Retrieved from [WhatsApp Help Center](faq.whatsapp.com).
-- WhatsApp Help Center. *How to change your privacy settings.* Retrieved from [WhatsApp Help Center](faq.whatsapp.com).
-- WhatsApp LLC. *WhatsApp Status and Channels Supplemental Privacy Policy.* Retrieved from [WhatsApp Legal Resources](whatsapp.com/legal).
+- WhatsApp Help Center. *How to manage status privacy.* Retrieved from [WhatsApp Help Center](https://faq.whatsapp.com).
+- WhatsApp Help Center. *How to change your privacy settings.* Retrieved from [WhatsApp Help Center](https://faq.whatsapp.com).
+- WhatsApp LLC. *WhatsApp Status and Channels Supplemental Privacy Policy.* Retrieved from [WhatsApp Legal Resources](https://whatsapp.com/legal).
 - WhatsApp Mobile Application, **Settings > Privacy > Status**, observed directly within the app.
 
 </details>
