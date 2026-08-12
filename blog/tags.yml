@@ -7,3 +7,8 @@ ci-cd:
   label: 'CI/CD'
   permalink: /ci-cd
   description: 'Posts about continuous integration and deployment pipelines.'
+
+docusaurus:
+  label: 'Docusaurus'
+  permalink: /docusaurus
+  description: 'Posts about building and configuring a Docusaurus site.'
