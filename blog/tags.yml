@@ -1,19 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+docs-as-code:
+  label: 'Docs as Code'
+  permalink: /docs-as-code
+  description: 'Posts about treating documentation like code — Git, CI/CD, and automation workflows.'
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+ci-cd:
+  label: 'CI/CD'
+  permalink: /ci-cd
+  description: 'Posts about continuous integration and deployment pipelines.'
