@@ -149,7 +149,9 @@ Here, `mkdir` creates the `my-repo` folder, `cd` moves into it, and `git init` i
 
 To confirm the initialization, check for this message:
 
-`Initialized empty Git repository in .../my-repo/.git/`
+```
+Initialized empty Git repository in .../my-repo/.git/
+```
 
 ![](./images/Image2.PNG)
 
@@ -246,11 +248,10 @@ Run `git status`
 
 You will see something similiar to:
 
-`Untracked files:`
-
-      `(use "git add <file>..." to include in what will be committed)`
-
-               `README.md`
+``` Untracked files:
+(use "git add <file>..." to include in what will be committed)
+README.md
+```
 
 The file has changed, but the change is still only in your working directory.
 
@@ -266,11 +267,11 @@ Run `git status` again
 
 The output should now show something similar to:
 
-`Changes to be committed:`
-
-      `(use "git rm --cached <file>..." to unstage)`
-
-            `new file:   README.md`
+```
+Changes to be committed:
+(use "git rm --cached <file>..." to unstage)
+new file:   README.md
+```
 
 ![](./images/Image5.PNG)
 
@@ -320,9 +321,10 @@ Run `git commit -m "Create README file"`
 
 Git will display output similar to:
 
-`[master 47bd4c3] Create README file`
-
-    `1 file changed, 0 insertions(+), 0 deletions(-)`
+```
+[master 47bd4c3] Create README file
+1 file changed, 0 insertions(+), 0 deletions(-)\
+```
 
 ![](./images/Image7.PNG)
 
