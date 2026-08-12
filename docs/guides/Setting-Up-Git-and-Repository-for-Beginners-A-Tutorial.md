@@ -7,7 +7,7 @@ sidebar_position: 1
 
 ## **A Guide for Technical Writers and Documentation Engineers**
 
-![](./images/image1.png)
+![](./images/Image1.png)
 
 ## **1\. Introduction**
 
