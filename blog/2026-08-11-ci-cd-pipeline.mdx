@@ -1,0 +1,35 @@
+---
+title: How I Finally Understood "CI/CD Pipeline" — By Breaking My Own Build
+description: A Docusaurus deployment failure turned an abstract term into something I actually understand.
+slug: ci-cd-pipeline
+authors: [Favour Adebayo]
+tags: [docs-as-code, docusaurus, ci-cd]
+---
+
+While exploring Docs-as-Code workflows, CI/CD pipeline was one of those terms I recognized without fully understanding. I knew it involved builds and deployments, but the actual sequence of events remained abstract.
+
+That changed during a recent Docusaurus deployment.
+
+<!-- truncate -->
+
+I'd been customizing a Docusaurus demo project (getting myself busy). After editing the project folder, adding my docs, updating the configuration, and making several code changes (with assistance from Claude and ChatGPT), I validated the site locally. The development server rendered all pages correctly, internal navigation worked, and no build warnings appeared.
+
+I pushed the changes to GitHub and started a deployment on Vercel, expecting a straightforward operation. Instead, Vercel returned with a Build Error. I inspected the build logs and identified the cause: some external reference links in my documentation were missing the `https://` protocol.
+
+The interesting part was that the problem did not appear during local development. During the production build, however, Docusaurus interpreted those protocol-less references as internal documentation paths rather than external URLs. And because no matching files existed in the project, the build failed during link resolution.
+
+I corrected the links, committed the changes, and pushed again. This time, Vercel automatically detected the new commit, triggered a fresh build, and deployed the updated site successfully. From a coding perspective, this was a minor bug fix. However, from a systems perspective, it revealed an automated regulatory step.
+
+The failed build was not an inconvenience, rather it was a validation gate. Vercel prevented a deployment that contained broken references. If the build had passed silently, I could have shipped a production site with dead links and discovered the issue only after users encountered it.
+
+At that point, the term CI/CD (Continuous Integration/Continuous Deployment) pipeline stopped being abstract.
+
+## Simply Put
+
+**Continuous Integration (CI)** is the practice of automatically checking whether new changes can be safely combined with an existing project. Instead of developers making changes and hoping everything still works, a CI system creates a fresh environment, installs the project dependencies, builds the application, and runs validation checks every time a new commit is pushed.
+
+**Continuous Deployment (CD)** is the practice of automatically releasing a successfully validated build to users. Once the CI checks pass, the deployment system takes the generated application and makes it live without requiring a separate manual publishing step.
+
+A **pipeline** is the automated workflow that connects the different stages of CI/CD together. It takes code changes through processes such as building, testing, validation, and deployment before delivering the final product to users.
+
+Thank you for reading this far!
