@@ -254,7 +254,7 @@ You will see something similiar to:
 
 The file has changed, but the change is still only in your working directory.
 
-![](./images/image4.png)
+![](./images/Image4.png)
 
 4. **Stage the change**
 
