@@ -12,3 +12,11 @@ docusaurus:
   label: 'Docusaurus'
   permalink: /docusaurus
   description: 'Posts about building and configuring a Docusaurus site.'
+
+quality-documentation:
+  label: 'Quality Documentation'
+  permalink: /quality-documentation
+
+technical-writing:
+  label: 'Technical Writing'
+  permalink: /technical-writing
