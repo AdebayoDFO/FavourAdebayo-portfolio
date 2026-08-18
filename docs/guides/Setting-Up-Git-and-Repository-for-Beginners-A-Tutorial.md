@@ -362,4 +362,70 @@ The goal isn't to create as many commits as possible. The goal is to make each c
 * **Keep formatting changes separate from content changes when practical.** If you reformat an entire document while also changing its content, reviewing the actual content changes becomes harder.  
 * **Commit at meaningful points.** You don't need to commit every few minutes, but avoid waiting until an entire feature or documentation project has accumulated dozens of unrelated changes.  
 * **Aim for a coherent state.** A commit should normally leave the project in a state that someone else can understand and work with, rather than capturing half-finished work simply because you want a checkpoint.
-  
+
+## **11\. Git Commands Cheat Sheet**
+
+### **Initializing a repository**
+
+`git init`
+
+### **Staging files**
+
+| Command | Function |
+| :---- | :---- |
+| `git add file1.md` | Stages a single file (file1.md) |
+| `git add file1.md file2.md` | Stages multiple files (file1.md & file2.md) |
+| `git add *.md` | Stages files with a pattern (.md) |
+| `git add .` | Stages the current directory and all its content |
+
+### **Viewing the status**
+
+| Command | Function |
+| :---- | :---- |
+| `git status` | Shows full status |
+| `git status -s` | Shows short status |
+
+### **Committing the staged files**
+
+| Command | Function |
+| :---- | :---- |
+| `git commit -m “Message”` | Commits with a one-line message |
+| `git commit` | Opens the default editor to type a long message |
+
+### **Skipping the staging area**
+
+`git commit -am “Message”`
+
+### **Removing files**
+
+| Command | Function |
+| :---- | :---- |
+| `git rm file1.md` | Removes file1.md from working directory and staging area |
+
+### **Viewing the staged/unstaged changes**
+
+| Command | Function |
+| :---- | :---- |
+| `git diff` | Shows unstaged changes |
+| `git diff --staged` | Shows staged changes |
+| `git diff --cached` | Same as the above |
+
+### **Viewing the history**
+
+| Command | Function |
+| :---- | :---- |
+| `git log` | Shows full history |
+| `git log --oneline` | Shows summary of history |
+| `git log --reverse` | Lists the commits from the oldest to the newest |
+
+### **Viewing a commit**
+
+| Command | Function |
+| :---- | :---- |
+| `git show 921a2ff` | Shows the commit with ID (921a2ff) |
+| `git show HEAD` | Shows the last commit |
+| `git show HEAD~2` | Shows two steps before the last commit |
+
+### **Unstaging files (undoing git add)**
+
+`git rm --cached file1.md`
