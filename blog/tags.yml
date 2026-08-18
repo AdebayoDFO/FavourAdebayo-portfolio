@@ -17,6 +17,10 @@ quality-documentation:
   label: 'Quality Documentation'
   permalink: /quality-documentation
 
+documentation:
+  label: 'Documentation'
+  permalink: /documentation
+
 technical-writing:
   label: 'Technical Writing'
   permalink: /technical-writing
