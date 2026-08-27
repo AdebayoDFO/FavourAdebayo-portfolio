@@ -1,5 +1,5 @@
 ---
-title: The juice of life is in the overall process, not the results
+title: The Juice Of Life Is In The Overall Process, Not The Results
 slug: the-juice-of-life
 authors: [Favour-Adebayo]
 ---
@@ -27,19 +27,19 @@ The finish line keeps shifting. But the process, however, is where life is actua
 
 ---
 
-**𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗮𝗿𝗲 𝗺𝗼𝗺𝗲𝗻𝘁𝘀, 𝗯𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝘀 𝗮𝗿𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝘀:**
+### **𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗮𝗿𝗲 𝗺𝗼𝗺𝗲𝗻𝘁𝘀, 𝗯𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝘀 𝗮𝗿𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝘀:**
 
 A result is usually a single point in time, like winning a competition which may only take seconds. But the process behind the scenes contains; the late nights studying, failures, discipline, moments of doubt, small improvements and other experiences.
 
 ---
 
-**𝗧𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗶𝘀 𝘄𝗵𝗲𝗿𝗲 𝗶𝗱𝗲𝗻𝘁𝗶𝘁𝘆 𝗶𝘀 𝗯𝘂𝗶𝗹𝘁:**
+### **𝗧𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗶𝘀 𝘄𝗵𝗲𝗿𝗲 𝗶𝗱𝗲𝗻𝘁𝗶𝘁𝘆 𝗶𝘀 𝗯𝘂𝗶𝗹𝘁:**
 
 Results tell what is achieved, but the process reveals the transformation. For example, someone who scores 100% in an exam has an achievement. But someone who developed discipline, curiosity, resilience, and consistency while preparing has developed a character. This is why two people can achieve the same result but have completely different experiences.
 
 ---
 
-**𝗟𝗼𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗿𝗲𝗮𝘁𝗲𝘀 𝗺𝗮𝘀𝘁𝗲𝗿𝘆:**
+### **𝗟𝗼𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗿𝗲𝗮𝘁𝗲𝘀 𝗺𝗮𝘀𝘁𝗲𝗿𝘆:**
 
 Almost every great person in any field eventually discovers this.
 
@@ -51,7 +51,7 @@ The list goes on and on. Someone who only loves the result will eventually lose 
 
 ---
 
-**𝗕𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗼𝘃𝗲𝗿 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗺𝗲𝗮𝗻 𝗶𝗴𝗻𝗼𝗿𝗶𝗻𝗴 𝗿𝗲𝘀𝘂𝗹𝘁𝘀:**
+### **𝗕𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗼𝘃𝗲𝗿 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗺𝗲𝗮𝗻 𝗶𝗴𝗻𝗼𝗿𝗶𝗻𝗴 𝗿𝗲𝘀𝘂𝗹𝘁𝘀:**
 
 This is an important balance. Sometimes this can be misunderstood as
 

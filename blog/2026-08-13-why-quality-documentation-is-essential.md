@@ -25,7 +25,9 @@ Documentation is not separate from engineering. Rather, it is one of the ways en
 
 This becomes particularly important as a system grows. Documentation helps teams build a shared understanding of the system, keep increasing complexity manageable, reduce the time spent rediscovering information, and respond more effectively when something goes wrong.
 
-This article looks at why that’s true across four dimensions: how documentation shapes understanding, how it holds off complexity, how it speeds up teams, and how it determines whether a system can be reliably operated when something goes wrong. 
+This article looks at why that’s true across four dimensions: how documentation shapes understanding, how it holds off complexity, how it speeds up teams, and how it determines whether a system can be reliably operated when something goes wrong.
+
+---
 
 ## **Documentation Is Part of the System**
 
@@ -44,6 +46,8 @@ Consider a rate limiter set to 100 requests per minute. The code can tell you th
 This is one reason teams use **Architecture Decision Records (ADRs)**: short, dated documents that capture a decision, the alternatives considered, and the reasoning behind the choice. An ADR does not need to become a long design document. Its value is in preserving context that would otherwise be easy to lose. Six months later, reading a few paragraphs about why the team chose eventual consistency may be far easier than trying to reconstruct the decision from code and old conversations.
 
 Code changes constantly, and design intent does not automatically travel with it. Without documentation, teams often end up rediscovering parts of the system every time someone new has to work on them.
+
+---
 
 ## **Complexity Grows Faster Than We Notice**
 
@@ -64,6 +68,8 @@ For example, A current dependency map, gives engineers a better idea of what a c
 The goal is not a complexity-free system. Rather, it is a system where the complexity that exists is visible enough for people to work with it confidently.
 :::
 
+---
+
 ## **Quality Documentation Makes Teams Faster**
 
 The productivity benefit of documentation is easy to underestimate because the cost of poor documentation rarely appears as one obvious event. More often, it is distributed across dozens of small interruptions.
@@ -75,6 +81,8 @@ Each event may look insignificant on its own, but over time, lost time adds up.
 Good documentation turns some of that repeated effort into self-service work. A service overview can explain what a service owns and what it does not. API documentation can show realistic request and response examples instead of only listing parameters. A deployment guide can provide steps that someone else can follow without having to fill in missing assumptions. A troubleshooting page can connect common errors to the fixes that have actually worked.
 
 The point is not to document every detail of the system. That would be difficult to maintain and, in many cases, difficult to use. The more useful question is: **What information would be expensive for the next person to rediscover?** That is usually where documentation earns its keep. It is also where the audience matters. The best documentation is not written for an abstract *“user.”* It is written for someone trying to accomplish a specific task.
+
+---
 
 ## **Reliability Depends on Shared Understanding**
 
@@ -91,16 +99,16 @@ A runbook is not a general description of a system. It is a task-oriented docume
 For example:
 
 ```markdown
-## Runbook: Webhook Delivery Failure
+# Runbook: Webhook Delivery Failure
 
  **Severity:** P2 — partial customer impact 
  **Owner:** Payments team (#payments-oncall)
 
- ### Symptoms 
+ ## Symptoms 
  - Webhook delivery success rate drops below 95%
  - Support tickets referencing missing webhook events
 
- ### Immediate checks
+ ## Immediate checks
  1. Confirm the dispatcher service is running:
     kubectl get pods -n webhooks
 
@@ -109,14 +117,14 @@ For example:
 
  3. Review deploys to the dispatcher in the last 2 hours
 
- ### Mitigation  
+ ## Mitigation  
  - Dispatcher crash-looping → roll back: 
    kubectl rollout undo deployment/webhook-dispatcher
 
  - DLQ backing up → drain and requeue:
    ./scripts/requeue-dlq.sh --queue webhook-dlq
 
- ### Escalation
+ ## Escalation
  Unresolved after 20 minutes → page the on-call payments engineer.
 ```
 
@@ -136,6 +144,8 @@ This also connects to the idea of **Bus factor**: the degree to which a system d
 :::tip
 When knowledge exists only in people’s heads, system reliability depends on who is available.
 :::
+
+---
 
 ## **What Good Documentation Looks Like**
 
@@ -165,11 +175,15 @@ When a pull request changes user-facing behavior, the relevant documentation sho
 
 This is the idea behind **Docs-as-code**: keeping documentation in version control and using familiar code development practices such as pull requests and reviews to maintain it. The exact tooling can vary, but the underlying principle is straightforward: documentation should evolve alongside the system instead of being maintained as a separate, occasional activity.
 
+---
+
 ## **Conclusion**
 
 Documentation is easy to treat as secondary because a system can continue running without anyone reading its docs. However, the problem often appears later, when someone has to understand an unfamiliar component, change a risky part of the system, respond to an incident, or take over work from someone who is no longer available.
 
 Good documentation preserves decisions and context. It reduces the time spent rediscovering information that someone already worked out once. It gives different teams a shared reference point, and it provides operational guidance when there is little time to piece things together from scratch. The goal is not to document everything. Rather, it is to make important system knowledge available when and where people need it.
+
+---
 
 ## **Glossary**
 
