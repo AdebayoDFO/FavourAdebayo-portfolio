@@ -25,21 +25,15 @@ But the underlying problem is that *results are always temporary destinations.* 
 
 The finish line keeps shifting. But the process, however, is where life is actually experienced.
 
----
-
-### **𝗥𝗲𝘀𝘂𝗹𝘁𝘀 𝗮𝗿𝗲 𝗺𝗼𝗺𝗲𝗻𝘁𝘀, 𝗯𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝘀 𝗮𝗿𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲𝘀:**
+### **Results are moments, but processes are experiences:**
 
 A result is usually a single point in time, like winning a competition which may only take seconds. But the process behind the scenes contains; the late nights studying, failures, discipline, moments of doubt, small improvements and other experiences.
 
----
-
-### **𝗧𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗶𝘀 𝘄𝗵𝗲𝗿𝗲 𝗶𝗱𝗲𝗻𝘁𝗶𝘁𝘆 𝗶𝘀 𝗯𝘂𝗶𝗹𝘁:**
+### **The process is where identity is built**
 
 Results tell what is achieved, but the process reveals the transformation. For example, someone who scores 100% in an exam has an achievement. But someone who developed discipline, curiosity, resilience, and consistency while preparing has developed a character. This is why two people can achieve the same result but have completely different experiences.
 
----
-
-### **𝗟𝗼𝘃𝗶𝗻𝗴 𝘁𝗵𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗿𝗲𝗮𝘁𝗲𝘀 𝗺𝗮𝘀𝘁𝗲𝗿𝘆:**
+### **Loving the process creates mastery:**
 
 Almost every great person in any field eventually discovers this.
 
@@ -49,9 +43,7 @@ Almost every great person in any field eventually discovers this.
 
 The list goes on and on. Someone who only loves the result will eventually lose motivation because results can be rare. But someone who loves the process can continue even when nobody is watching.
 
----
-
-### **𝗕𝘂𝘁 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗼𝘃𝗲𝗿 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗺𝗲𝗮𝗻 𝗶𝗴𝗻𝗼𝗿𝗶𝗻𝗴 𝗿𝗲𝘀𝘂𝗹𝘁𝘀:**
+### **But process over results does not mean ignoring results:**
 
 This is an important balance. Sometimes this can be misunderstood as
 
