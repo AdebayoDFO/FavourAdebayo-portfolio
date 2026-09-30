@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Favour Adebayo — Technical Writer',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Favour Adebayo',
+  tagline: 'Technical Writer',
+  favicon: 'img/Favour-Adebayo.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -87,7 +87,7 @@ const config = {
         title: 'Favour Adebayo',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Favour-Adebayo.jpg',
         },
 
         items: [
